@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verbo da Vida Sede - Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --card-hover: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --border-color: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      padding: 30px 16px;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile-avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      color: white;
+      margin: 0 auto 12px auto;
+      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+    }
+
+    .profile h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .profile p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .links-list {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px 18px;
+      background-color: var(--card-bg);
+      color: var(--text-main);
+      text-decoration: none;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .link-btn:hover {
+      background-color: var(--card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .info-card {
+      width: 100%;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px;
+      font-size: 0.9rem;
+    }
+
+    .info-card h2 {
+      font-size: 1.05rem;
+      color: var(--accent);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .schedule-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dashed var(--border-color);
+      padding-bottom: 4px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: var(--text-muted);
+      font-size: 1.4rem;
+      transition: color 0.2s ease;
+    }
+
+    .social-icons a:hover {
+      color: var(--accent);
+    }
+
+    footer {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Perfil -->
+    <div class="profile">
+      <div class="profile-avatar">
+        <i class="fa-solid fa-church"></i>
+      </div>
+      <h1>Igreja Verbo da Vida Sede</h1>
+      <p>Campina Grande - PB • Novos Ares</p>
+    </div>
+
+    <!-- Botões Principais -->
+    <div class="links-list">
+      <a class="link-btn" href="https://verbodavida.org.br" target="_blank"><i class="fa-solid fa-globe"></i> Nosso Site Oficial</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-heart"></i> Quero Jesus</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Estude no Rhema</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-book-bible"></i> Escola de Ministros</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-earth-americas"></i> Escola de Missões</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-user-plus"></i> Discipulado (Inscrição)</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-book-open"></i> Clube do Livro</a>
+      <a class="link-btn" href="#" target="_blank"><i class="fa-solid fa-users"></i> Cadastro de Membros</a>
+      <a class="link-btn" href="https://t.me/" target="_blank"><i class="fa-brands fa-telegram"></i> Canal no Telegram</a>
+      <a class="link-btn" href="https://maps.google.com" target="_blank"><i class="fa-solid fa-location-dot"></i> Como Chegar</a>
+    </div>
+
+    <!-- Horários de Culto -->
+    <div class="info-card">
+      <h2><i class="fa-regular fa-clock"></i> Dias e Horários de Culto</h2>
+      <div class="schedule-grid">
+        <div class="schedule-item"><span>Domingo - Manhã:</span> <strong>10:30h</strong></div>
+        <div class="schedule-item"><span>Domingo - Noite:</span> <strong>18:00h</strong></div>
+        <div class="schedule-item"><span>Terça-feira:</span> <strong>20:00h</strong></div>
+        <div class="schedule-item"><span>Quarta-feira:</span> <strong>20:00h</strong></div>
+        <div class="schedule-item"><span>Sábado (Jovens):</span> <strong>19:00h</strong></div>
+      </div>
+    </div>
+
+    <!-- Contato e Localização -->
+    <div class="info-card">
+      <h2><i class="fa-solid fa-circle-info"></i> Informações</h2>
+      <p style="margin-bottom: 8px;"><i class="fa-brands fa-whatsapp"></i> <strong>WhatsApp:</strong> (83) 3066-0905</p>
+      <p><i class="fa-solid fa-map-pin"></i> Av. Marechal Floriano Peixoto, 2951 - Dinamérica, Campina Grande - PB</p>
+    </div>
+
+    <!-- Redes Sociais -->
+    <div class="social-icons">
+      <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://spotify.com" target="_blank" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+      <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://whatsapp.com" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <footer>
+      © Ministério Verbo da Vida
+    </footer>
+  </div>
+
+</body>
+</html>
